@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useRouter } from 'next/router';
 import { User } from '../../../api/User';
 import { GetStaticProps, InferGetStaticPropsType, GetStaticPaths } from 'next';
+
 export interface UserProps {
   user: User;
 }
